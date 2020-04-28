@@ -1,4 +1,4 @@
-# K-Coloration de graphe
+# Coloration de graphe
 
 Projet universitaire de résolution mathématique du problème de K-Coloration d'un graphe donné dans l'UE Sécurité et Aide à la Décision en L2 Informatique à l'Université de Caen Normandie.
 
