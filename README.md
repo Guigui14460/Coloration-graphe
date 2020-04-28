@@ -17,15 +17,13 @@ L'autre but était de faire cela avec l'API d'un outil, **lp_solve**. Cet outil 
 
 ## Setup
 Pour Windows :
-> Rendez-vous sur [ce site](http://lpsolve.sourceforge.net/5.5/distribution.htm) afin d'installer la version développeur de lp_solve. Sans cela, il vous sera impossible d'utiliser l'API de lp_solve.
+Rendez-vous sur [ce site](http://lpsolve.sourceforge.net/5.5/distribution.htm) afin d'installer la version développeur de lp_solve. Sans cela, il vous sera impossible d'utiliser l'API de lp_solve.
 
 Pour MacOS et Linux:
-> Exécutez la commande suivante : ```bash
-sudo apt install liblpsolve55-dev
-```
+Exécutez la commande suivante : ```bash
+sudo apt install liblpsolve55-dev```
 
 ## Utilisation
 Vous pouvez exécuter le script avec cette commande : ```bash
-g++ main.cpp -llpsolve55 -lcolamd -ldl -o exe
-```
+g++ main.cpp -llpsolve55 -lcolamd -ldl -o exe```
 Pour modifier le graphe, veuillez modifier le fichier `graph.dimacs` en respectant les règles d'écriture.
